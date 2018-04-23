@@ -129,14 +129,6 @@ export default {
           title: 'Data Display',
           items: [
             {
-              title: 'Avatar 头像',
-              route: 'avatar'
-            },
-            {
-              title: 'Badge 徽章',
-              route: 'badge'
-            },
-            {
               title: 'Card 卡片',
               route: 'card'
             },

@@ -85,6 +85,7 @@ export default {
           [`${prefixCls}-clicked`]: !!this.clicked,
           [`${prefixCls}-icon-only`]: !this.children && this.icon && !this.loading
         }
+
       ]
     },
     iconType () {

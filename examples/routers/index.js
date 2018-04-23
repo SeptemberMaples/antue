@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Button from './button'
-import Badge from './badge'
 import Menu from './menu'
 import Icon from './icon'
 import Input from './input'
@@ -23,7 +22,6 @@ import Popover from './popover'
 import Popconfirm from './popconfirm'
 import Timeline from './timeline'
 import Dropdown from './dropdown'
-import Avatar from './avatar'
 import Steps from './steps'
 
 Vue.use(Router)
@@ -119,13 +117,6 @@ let router = new Router({
       component: Dropdown
     },
     {
-      path: '/badge',
-      component: Badge
-    },
-    {
-      path: '/avatar',
-      component: Avatar
-    }, {
       path: '/steps',
       component: Steps
     }
